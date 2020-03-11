@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab 06</string>
+    <string name="guess_the_singer">Guess the Singer!</string>
+    <string name="start">Start</string>
+</resources>
