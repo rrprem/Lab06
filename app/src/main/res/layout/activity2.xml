@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+
     <ScrollView
         android:id="@+id/scroll"
         android:layout_width="wrap_content"
@@ -22,7 +23,159 @@
             android:orientation="vertical"
             >
 
-            <include layout="@layout/abts"/>
+            <ImageView
+                android:id="@+id/bts"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bts"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <Button
+                android:id="@+id/oned"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/one_direction"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bts"
+                />
+
+            <Button
+                android:id="@+id/prettymuch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/prettymuch"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/oned"
+                />
+
+            <Button
+                android:id="@+id/answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bts"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/prettymuch"
+                />
+
+            <Button
+                android:id="@+id/bb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/backstreet_boys"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/answer1"
+                />
+
+            <ImageView
+                android:id="@+id/lauv"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@drawable/lauv"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="50dp"
+                />
+
+            <Button
+                android:id="@+id/answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vlauvv"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/lauv"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                android:id="@+id/troye"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/troye_sivan"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/answer2"
+                />
+
+            <Button
+                android:id="@+id/easy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/g_eazy"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/troye"
+                />
+
+            <Button
+                android:id="@+id/prince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/prince"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/easy"
+                />
+
+            <ImageView
+                android:id="@+id/taylor"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@drawable/taylor"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="50dp"
+                />
+
+            <Button
+                android:id="@+id/ari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ariana_grande"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/taylor"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                android:id="@+id/katy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/katy_perry"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ari"
+                />
+
+            <Button
+                android:id="@+id/selgo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selena_gomez"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/katy"
+                />
+
+            <Button
+                android:id="@+id/answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/taylor_swift"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/selgo"
+                />
 
         </LinearLayout>
 

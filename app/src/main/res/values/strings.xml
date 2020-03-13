@@ -6,4 +6,15 @@
     <string name="prettymuch">Prettymuch</string>
     <string name="bts">BTS</string>
     <string name="backstreet_boys">Backstreet Boys</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="high_score">High Score</string>
+    <string name="score">Score:</string>
+    <string name="vlauvv">Lauv</string>
+    <string name="troye_sivan">Troye Sivan</string>
+    <string name="g_eazy">G-Eazy</string>
+    <string name="prince">Prince</string>
+    <string name="taylor_swift">Taylor Swift</string>
+    <string name="selena_gomez">Selena Gomez</string>
+    <string name="katy_perry">Katy Perry</string>
+    <string name="ariana_grande">Ariana Grande</string>
 </resources>
