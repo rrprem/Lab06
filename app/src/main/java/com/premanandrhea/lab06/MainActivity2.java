@@ -1,6 +1,7 @@
 package com.premanandrhea.lab06;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
 
 import android.content.Context;
 import android.content.SharedPreferences;
