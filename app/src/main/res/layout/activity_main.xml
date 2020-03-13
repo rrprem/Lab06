@@ -40,6 +40,18 @@
         app:layout_constraintTop_toBottomOf="@+id/title"
         />
 
+    <TextView
+        android:id="@+id/sentence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Can you succeed?"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/but"
+        />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
