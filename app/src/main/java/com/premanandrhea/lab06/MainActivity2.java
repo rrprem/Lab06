@@ -2,10 +2,13 @@ package com.premanandrhea.lab06;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -14,13 +17,27 @@ public class MainActivity2 extends AppCompatActivity {
     Button grande, perry, sel, swift;
     Button horan, styles, pain, tom;
     Button jlo, lizz, card, nick;
+    TextView scor, high;
     int score;
+    int highscore;
+    SharedPreferences.Editor editor;
+    SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity2);
 
         score = 0;
+
+        scor = findViewById(R.id.score);
+        high = findViewById(R.id.highscore);
+
+        sharedPreferences = getSharedPreferences("Settings", Context.MODE_PRIVATE);
+        editor = sharedPreferences.edit();
+        editor.apply();
+
+        highscore = sharedPreferences.getInt("high", 0);
+        high.setText("HighScore: " + highscore);
 
         onedi = findViewById(R.id.oned);
         pm = findViewById(R.id.prettymuch);
@@ -90,6 +107,13 @@ public class MainActivity2 extends AppCompatActivity {
 
         else{
             score++;
+            scor.setText("Score: " + score);
+            if(score > highscore){
+                highscore = score;
+                editor.putInt("high", highscore);
+                editor.apply();
+                high.setText("HighScore: " + highscore);
+            }
         }
     }
 }
