@@ -17,4 +17,12 @@
     <string name="selena_gomez">Selena Gomez</string>
     <string name="katy_perry">Katy Perry</string>
     <string name="ariana_grande">Ariana Grande</string>
+    <string name="harry_styles">harry styles</string>
+    <string name="niall_horan">Niall Horan</string>
+    <string name="liam_paine">Liam Paine</string>
+    <string name="louis_tomlinson">Louis tomlinson</string>
+    <string name="cardi_b">Cardi B</string>
+    <string name="nicki_minaj">nicki minaj</string>
+    <string name="jloo">Jennifer Lopez</string>
+    <string name="lizzo">Lizzo</string>
 </resources>

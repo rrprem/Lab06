@@ -12,6 +12,8 @@ public class MainActivity2 extends AppCompatActivity {
     Button onedi, pm, bangtan, oldies;
     Button luv, ts, eas, king;
     Button grande, perry, sel, swift;
+    Button horan, styles, pain, tom;
+    Button jlo, lizz, card, nick;
     int score;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +51,26 @@ public class MainActivity2 extends AppCompatActivity {
         button(perry, swift);
         button(sel, swift);
         button(swift, swift);
+
+        horan = findViewById(R.id.niall);
+        styles = findViewById(R.id.answer4);
+        pain = findViewById(R.id.liam);
+        tom = findViewById(R.id.louis);
+
+        button(horan, styles);
+        button(styles, styles);
+        button(pain, styles);
+        button(tom, styles);
+
+        jlo = findViewById(R.id.jlop);
+        lizz = findViewById(R.id.lizzo);
+        card = findViewById(R.id.answer5);
+        nick = findViewById(R.id.nicki);
+
+        button(jlo, card);
+        button(lizz, card);
+        button(card, card);
+        button(nick, card);
 
     }
 

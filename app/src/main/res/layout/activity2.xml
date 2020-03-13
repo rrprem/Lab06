@@ -177,6 +177,111 @@
                 app:layout_constraintTop_toBottomOf="@id/selgo"
                 />
 
+            <ImageView
+                android:id="@+id/harry"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@drawable/harry"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="50dp"
+                />
+
+            <Button
+                android:id="@+id/niall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/niall_horan"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/harry"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                android:id="@+id/answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/harry_styles"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/niall"
+                />
+
+            <Button
+                android:id="@+id/liam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/liam_paine"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/answer4"
+                />
+
+            <Button
+                android:id="@+id/louis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/louis_tomlinson"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/liam"
+                />
+
+            <ImageView
+                android:id="@+id/cardi"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@drawable/cardi"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="50dp"
+                />
+
+            <Button
+                android:id="@+id/jlop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jloo"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardi"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                android:id="@+id/lizzo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lizzo"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/jlop"
+                />
+
+            <Button
+                android:id="@+id/answer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cardi_b"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/answer4"
+                />
+
+            <Button
+                android:id="@+id/nicki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nicki_minaj"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/answer5"
+                android:layout_marginBottom="50dp"
+                />
+
         </LinearLayout>
 
 
